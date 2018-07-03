@@ -1,0 +1,164 @@
+.master{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  background-color: black;
+}
+.headera{
+  display: inline-flex;
+  width: 50%;
+  height: 69px;
+  justify-content: flex-start;
+  position: fixed;
+  z-index: 2;
+  background-color: black;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+}
+.headerb{
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: black;
+  z-index: 2;
+  position: fixed;
+  margin-left: 0%;
+  width: 50%;
+  height: 69px;
+  flex-wrap: nowrap;
+  border-bottom: 1px solid seashell;
+  margin-left: 50%;
+}
+*{
+  margin: 0px;
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 1;
+  text-align: center;
+}
+.item{
+  height: auto;
+  width: auto;
+  margin: 10px;
+  text-decoration: underline;
+}
+.imga{
+  height: 50px;
+  margin-left: 10px;
+}
+.containera{
+  justify-content: center;
+  align-items: center;
+  margin-top: 69px;
+  height: 700px;
+  display: flex;
+  width: 89%;
+  max-width: 1200.630;
+  flex-grow: 1;
+  margin-left: 5.5%;
+  margin-right: 5.5%;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+}
+.a{
+  background-color: black;
+  display: block;
+  width: 100%;
+  padding: 10px 0px;
+}
+.containerb{
+  display: flex;
+  height: auto;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: black;
+  width: 90%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 20px 0px;
+}
+.imgb{
+  margin: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+  width: 300px;
+  height: 200px;
+}
+.imgc{
+  margin: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+  width: 300px;
+  height: 200px;
+}
+.imgd{
+  margin: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+  width: 300px;
+  height: 200px;
+}
+.imge{
+  margin: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+  width: 300px;
+  height: 200px;
+}
+.imgf{
+  margin: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+  width: 300px;
+  height: 200px
+}
+.description{
+  background-color: black;
+  width: 100%;
+  height: auto;
+}
+.maindescription{
+  width: 100%;
+  height: auto;
+  margin: 10px;
+}
+.image{
+  height: 90%;
+  width: 100%;
+}
+h2{
+  font-size: 30px;
+  font-weight: bold;
+}
+.footer{
+  display: flex;
+  height: 500px;
+  width: 89%;
+  margin-left: 5.5%;
+  margin-right: 5.5%;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.foothead{
+  width: 100%;
+  height: auto;
+}
+.locale{
+  background-color: black;
+  width: 300px;
+  height: auto;
+}
+.contacts{
+  width: 100%;
+  background-color: black;
+  margin-bottom: 40px;
+  margin-top: 10px;
+  height: 200px;
+}
+.copyright{
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
